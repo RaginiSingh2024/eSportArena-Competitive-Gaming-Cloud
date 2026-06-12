@@ -137,16 +137,6 @@ eSportArena-Competitive-Gaming-Cloud
     └── index.html
 ```
 
-   #  Folder Description
-Folder/File                                                     	Description
-README.md	                                            Project overview and setup information
-Architecture.md	                                     Detailed AWS architecture documentation
-AWS_Final_Documentation_Ragini_023.pdf	                 Complete project report
-deployment/	                                       Deployment process and implementation steps
-diagrams-architecture/                              	AWS architecture diagram files
-screenshots/	                                     AWS deployment and website screenshots
-website/	                                             Source code of the deployed website
-
 # Infrastructure Components
 
 ## 1. Virtual Private Cloud (VPC)
