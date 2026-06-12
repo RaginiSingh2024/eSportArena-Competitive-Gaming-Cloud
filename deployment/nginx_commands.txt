@@ -1,0 +1,15 @@
+sudo apt update
+
+sudo apt install nginx -y
+
+sudo systemctl start nginx
+
+sudo systemctl enable nginx
+
+sudo systemctl status nginx
+
+sudo rm /var/www/html/index.nginx-debian.html
+
+sudo nano /var/www/html/index.html
+
+sudo systemctl restart nginx

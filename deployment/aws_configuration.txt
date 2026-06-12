@@ -1,0 +1,18 @@
+Region: us-east-1
+
+VPC: eSportArena-VPC
+
+Subnets:
+- Public Subnet 1
+- Public Subnet 2
+
+Security Group:
+- SSH (22)
+- HTTP (80)
+
+EC2 Instance:
+- Ubuntu 24.04
+- t3.micro
+
+Web Server:
+- Nginx

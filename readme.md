@@ -1,0 +1,304 @@
+# 🎮 eSportArena Competitive Gaming Cloud
+
+## Project Overview
+
+eSportArena Competitive Gaming Cloud is a cloud infrastructure project developed on Amazon Web Services (AWS) to demonstrate enterprise-level cloud deployment, networking, security, Linux administration, and web hosting concepts.
+
+The project was designed as part of the AWS Case Study Problem Statement provided by ITM Skills University. The primary objective is to create a scalable, secure, and cloud-hosted gaming platform environment capable of supporting future expansion requirements while demonstrating practical cloud computing concepts.
+
+The solution utilizes AWS networking services, virtual servers, Linux administration, and web hosting technologies to deploy and manage a gaming platform landing page on the cloud.
+
+---
+
+# Problem Statement
+
+The eSportArena Competitive Gaming Cloud platform requires a centralized cloud environment capable of supporting operational management, scalability, monitoring, reporting, and secure access control.
+
+The existing environment relies on disconnected systems and manual workflows. Therefore, a modern cloud-based architecture was designed using AWS services to improve:
+
+* Scalability
+* Availability
+* Security
+* Cloud Deployment
+* Infrastructure Management
+* Performance Monitoring
+* Future Expansion Capabilities
+
+---
+
+# Project Objectives
+
+The primary objectives of this project are:
+
+* Design a cloud infrastructure using AWS.
+* Create an isolated network using Amazon VPC.
+* Configure public and private subnets.
+* Deploy a Linux-based EC2 virtual machine.
+* Configure secure network access using Security Groups.
+* Install and manage a web server using Nginx.
+* Deploy a responsive gaming platform landing page.
+* Demonstrate Linux Administration concepts.
+* Implement cloud deployment best practices.
+* Showcase practical cloud computing implementation.
+
+---
+
+# AWS Services Used
+
+| Service          | Purpose                   |
+| ---------------- | ------------------------- |
+| Amazon EC2       | Virtual Server Hosting    |
+| Amazon VPC       | Network Isolation         |
+| Public Subnet    | Internet Facing Resources |
+| Private Subnet   | Internal Resources        |
+| Security Groups  | Firewall Configuration    |
+| Ubuntu Server    | Operating System          |
+| Nginx            | Web Server                |
+| Internet Gateway | Internet Connectivity     |
+
+---
+
+# Solution Architecture
+
+The project architecture follows a secure AWS deployment model.
+
+Internet User
+
+↓
+
+Internet Gateway
+
+↓
+
+Security Group
+
+↓
+
+Public Subnet
+
+↓
+
+EC2 Instance
+
+↓
+
+Ubuntu Server
+
+↓
+
+Nginx Web Server
+
+↓
+
+eSportArena Website
+
+The infrastructure is deployed inside a custom VPC and follows AWS networking best practices.
+
+---
+
+# Infrastructure Components
+
+## 1. Virtual Private Cloud (VPC)
+
+A custom VPC was created to provide network isolation and secure communication between resources.
+
+Configuration:
+
+* VPC Name: eSportArena-VPC
+* CIDR Block: 10.0.0.0/16
+
+---
+
+## 2. Public Subnet
+
+The public subnet hosts internet-facing resources such as the EC2 instance.
+
+Purpose:
+
+* Website Hosting
+* Internet Access
+* Public Connectivity
+
+---
+
+## 3. Private Subnet
+
+A private subnet was created for future backend services and database deployment.
+
+Purpose:
+
+* Secure Resource Deployment
+* Database Hosting
+* Internal Communication
+
+---
+
+## 4. Security Group
+
+A Security Group was configured as a virtual firewall.
+
+Allowed Ports:
+
+* SSH (22)
+* HTTP (80)
+* HTTPS (443)
+
+This ensures secure administrative access while allowing web traffic.
+
+---
+
+## 5. EC2 Instance
+
+An Ubuntu-based EC2 virtual machine was launched and configured.
+
+Configuration:
+
+* Instance Type: t3.micro
+* Operating System: Ubuntu Server 24.04 LTS
+
+Purpose:
+
+* Application Hosting
+* Linux Administration
+* Web Service Deployment
+
+---
+
+## 6. Nginx Web Server
+
+Nginx was installed and configured on the EC2 instance.
+
+Purpose:
+
+* Host Website
+* Handle Client Requests
+* Serve Static Content
+
+---
+
+# Linux Administration Tasks Performed
+
+The following Linux administration tasks were performed:
+
+* Package Updates
+* Web Server Installation
+* Service Management
+* File Management
+* Nginx Configuration
+* Website Deployment
+
+Commands Used:
+
+```bash
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl restart nginx
+sudo systemctl status nginx
+```
+
+---
+
+# Website Deployment
+
+A custom gaming-themed landing page was developed and deployed using Nginx.
+
+Features:
+
+* Responsive Design
+* Gaming Theme Interface
+* AWS Cloud Branding
+* Architecture Visualization
+* Project Statistics Section
+* Cloud Deployment Showcase
+
+The website was successfully hosted on the EC2 instance and accessed through the public IP address.
+
+---
+
+# Implementation Workflow
+
+Step 1: Create VPC
+
+Step 2: Configure Public and Private Subnets
+
+Step 3: Configure Security Group Rules
+
+Step 4: Launch Ubuntu EC2 Instance
+
+Step 5: Connect to EC2
+
+Step 6: Install Nginx
+
+Step 7: Deploy Website Files
+
+Step 8: Restart Web Server
+
+Step 9: Verify Website Access
+
+Step 10: Document Infrastructure
+
+---
+
+# Project Screenshots
+
+The following implementation screenshots are included in the project documentation:
+
+* VPC Creation
+* Subnet Configuration
+* Security Group Setup
+* EC2 Deployment
+* Ubuntu Server Access
+* Nginx Installation
+* Website Hosting
+* Architecture Diagram
+
+---
+
+# Key Learning Outcomes
+
+This project provided hands-on experience with:
+
+* Cloud Infrastructure Deployment
+* AWS Networking
+* Virtual Machine Management
+* Linux Administration
+* Web Hosting
+* Security Configuration
+* Cloud Architecture Design
+* Infrastructure Documentation
+
+---
+
+# Future Enhancements
+
+The project can be enhanced by implementing:
+
+* AWS Load Balancer
+* Auto Scaling
+* Amazon RDS
+* Amazon S3 Storage
+* CloudWatch Monitoring
+* Route 53 Domain Integration
+* SSL Certificates
+* Docker Containerization
+* Multi-Region Deployment
+
+---
+
+# Conclusion
+
+The eSportArena Competitive Gaming Cloud project successfully demonstrates the deployment of a secure and scalable cloud infrastructure using AWS services. The project highlights practical implementation of networking, server administration, web hosting, and cloud deployment concepts while providing a strong foundation for future enterprise-scale cloud solutions.
+
+---
+
+# Developed By
+
+Ragini Singh
+
+B.Tech Computer Science and Engineering
+
+ITM Skills University
+
+AWS Case Study Project
