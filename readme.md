@@ -10,6 +10,16 @@ The solution utilizes AWS networking services, virtual servers, Linux administra
 
 ---
 
+## Technologies Used
+
+- AWS EC2
+- AWS VPC
+- Security Groups
+- Ubuntu 24.04
+- Nginx
+- HTML
+- Draw.io
+
 # Problem Statement
 
 The eSportArena Competitive Gaming Cloud platform requires a centralized cloud environment capable of supporting operational management, scalability, monitoring, reporting, and secure access control.
@@ -42,6 +52,9 @@ The primary objectives of this project are:
 * Showcase practical cloud computing implementation.
 
 ---
+## Architecture
+
+See Architecture.md and diagrams folder.
 
 # AWS Services Used
 
