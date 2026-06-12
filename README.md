@@ -109,6 +109,44 @@ The infrastructure is deployed inside a custom VPC and follows AWS networking be
 
 ---
 
+## 📂 Project Structure
+```text
+eSportArena-Competitive-Gaming-Cloud
+│
+├── README.md
+├── Architecture.md
+├── AWS_Final_Documentation_Ragini_023.pdf
+│
+├── deployment
+│   └── deployment_steps.md
+│
+├── diagrams-architecture
+│   └── AWS_Architecture.drawio.png
+│
+├── screenshots
+│   ├── 01_vpc_created.png
+│   ├── 02_subnets.png
+│   ├── 03_security_group.png
+│   ├── 04_ec2_running.png
+│   ├── 05_nginx_running.png
+│   ├── 06_website_homepage.png
+│   ├── 07_features_section.png
+│   └── 08_architecture_section.png
+│
+└── website
+    └── index.html
+```
+
+   #  Folder Description
+Folder/File                                                     	Description
+README.md	                                            Project overview and setup information
+Architecture.md	                                     Detailed AWS architecture documentation
+AWS_Final_Documentation_Ragini_023.pdf	                 Complete project report
+deployment/	                                       Deployment process and implementation steps
+diagrams-architecture/                              	AWS architecture diagram files
+screenshots/	                                     AWS deployment and website screenshots
+website/	                                             Source code of the deployed website
+
 # Infrastructure Components
 
 ## 1. Virtual Private Cloud (VPC)
@@ -311,6 +349,10 @@ The eSportArena Competitive Gaming Cloud project successfully demonstrates the d
 Ragini Singh
 
 B.Tech Computer Science and Engineering
+
+Problem Statement No : 90
+
+PS Title : eSportArena Competitive Gaming Cloud
 
 ITM Skills University
 
