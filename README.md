@@ -83,16 +83,17 @@ The solution utilizes AWS networking services, virtual servers, Linux administra
 ![S3 Bucket](screenshots/SS-18-S3-Bucket.png)
 
 ### CloudWatch Metrics
+
 ![CloudWatch](screenshots/SS-19-CloudWatch-Metrics.png)
 
-### Website Home Page
-![Website Home](screenshots/Website Home Page.png)
+## Website Home Page
+![Website Home Page](screenshots/Website_Home_Page.png)
 
-### Website Features Section
-![Website Features](screenshots/Website Features Section.png)
+## Website Features Section
+![Website Features Section](screenshots/Website_Features_Section.png)
 
-### Website Architecture Section
-![Website Architecture](screenshots/Website Architecture Section.png)
+## Website Architecture Section
+![Website Architecture Section](screenshots/Website_Architecture_Section.png)
 
 ## Technologies Used
 
