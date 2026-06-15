@@ -9,6 +9,90 @@ The project was designed as part of the AWS Case Study Problem Statement provide
 The solution utilizes AWS networking services, virtual servers, Linux administration, and web hosting technologies to deploy and manage a gaming platform landing page on the cloud.
 
 ---
+## 🏗️ AWS Architecture Diagram
+
+![AWS Architecture](diagrams-architecture/AWS_Architecture.drawio.png)
+
+
+## 📸 Deployment Screenshots
+
+### AWS Login
+![AWS Login](screenshots/aws_login_page.png)
+
+### VPC Created
+![VPC Created](screenshots/SS-02-VPC-Created.png)
+
+### VPC List
+![VPC List](screenshots/SS-02-VPC-List.png)
+
+### Resource Map
+![Resource Map](screenshots/SS-03-Resource-Map.png)
+
+### Subnets
+![Subnets](screenshots/SS-03-Subnets.png)
+
+### EC2 Configuration
+![EC2 Configuration](screenshots/SS-04-EC2-Configuration.png)
+
+### Key Pair Created
+![Key Pair](screenshots/SS-05-KeyPair-Created.png)
+
+### Security Group Rules
+![Security Group](screenshots/SS-07-Security-Group-Rules.png)
+
+### EC2 Launch Configuration
+![EC2 Launch](screenshots/SS-08-EC2-Launch-Configuration.png)
+
+### EC2 Running Instance
+![EC2 Running](screenshots/SS-09-EC2-Running-Instance.png)
+
+### EC2 Started Again
+![EC2 Restart](screenshots/SS-09-EC2-Started-Again.png)
+
+### EC2 Terminal Connected
+![EC2 Terminal](screenshots/SS-10-EC2-Terminal-Connected.png)
+
+### MySQL Running
+![MySQL](screenshots/SS-10-MySQL-Running.png)
+
+### Linux User Created
+![Linux User](screenshots/SS-11-Linux-User-Created.png)
+
+### Nginx Service Running
+![Nginx](screenshots/SS-11-Nginx-Service-Running.png)
+
+### Permissions
+![Permissions](screenshots/SS-12-Permissions.png)
+
+### Cron Job
+![Cron Job](screenshots/SS-13-CronJob.png)
+
+### Docker Installed
+![Docker Installed](screenshots/SS-14-Docker-Installed.png)
+
+### Docker Container
+![Docker Container](screenshots/SS-15-Docker-Container.png)
+
+### Shell Script
+![Shell Script](screenshots/SS-16-Shell-Script.png)
+
+### IAM User
+![IAM User](screenshots/SS-17-IAM-User.png)
+
+### S3 Bucket
+![S3 Bucket](screenshots/SS-18-S3-Bucket.png)
+
+### CloudWatch Metrics
+![CloudWatch](screenshots/SS-19-CloudWatch-Metrics.png)
+
+### Website Home Page
+![Website Home](screenshots/Website Home Page.png)
+
+### Website Features Section
+![Website Features](screenshots/Website Features Section.png)
+
+### Website Architecture Section
+![Website Architecture](screenshots/Website Architecture Section.png)
 
 ## Technologies Used
 
